@@ -22,4 +22,9 @@ router.put('/checkLists/:id', (req, res) => {
     res.send(`PUT ID: ${req.params.id}`);
 })
 
+router.delete('/checkLists/:id', (req, res) => {
+    console.log(`DELETE ID: ${req.params.id}`)
+    res.send(`DELETE ID: ${req.params.id}`);
+})
+
 module.exports = router;
