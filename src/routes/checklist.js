@@ -7,7 +7,7 @@ router.get('/checkLists', (req,res) => {
     res.send();
 })
 
-router.post('/', (req,res) => {
+router.post('/checkLists', (req,res) => {
     console.log(req.body);
     res.status(200).send(req.body);
 })
