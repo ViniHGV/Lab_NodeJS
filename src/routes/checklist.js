@@ -13,13 +13,13 @@ router.post('/checkLists', (req,res) => {
 })
 
 router.get('/checkLists/:id', (req, res) => {
-    console.log(req.params.id)
-    res.send(`Id: ${req.params.id}`);
+    console.log (`ID: ${req.params.id}`)
+    res.send(`ID: ${req.params.id}`);
 })
 
 router.put('/checkLists/:id', (req, res) => {
-    console.log(req.params.id)
-    res.send(`Id: ${req.params.id}`);
+    console.log(`PUT ID: ${req.params.id}`)
+    res.send(`PUT ID: ${req.params.id}`);
 })
 
 module.exports = router;
