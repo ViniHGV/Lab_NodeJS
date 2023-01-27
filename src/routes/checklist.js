@@ -17,4 +17,9 @@ router.get('/checkLists/:id', (req, res) => {
     res.send(`Id: ${req.params.id}`);
 })
 
+router.put('/checkLists/:id', (req, res) => {
+    console.log(req.params.id)
+    res.send(`Id: ${req.params.id}`);
+})
+
 module.exports = router;
